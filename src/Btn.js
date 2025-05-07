@@ -1,7 +1,7 @@
 import React from 'react'
-function Btn(){
+function Btn(props){
     return(<div>
-        <button>Click me</button>
+        <button style={{backgroundColor:props.color}}>{props.btnName}</button>
     </div>)
 }
-export default Btn
+export default Btn  
